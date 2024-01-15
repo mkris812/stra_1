@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    .red-stroke-text {
+      -webkit-text-stroke: 1px red; /* Sets the stroke for Webkit browsers */
+       text-stroke: 1px red; /* Sets the stroke for other browsers (may not be widely supported) */
+    }
+    .white-stroke-text {
+        -webkit-text-stroke: 1px rgb(255, 255, 255); /* Sets the stroke for Webkit browsers */
+         text-stroke: 1px red; /* Sets the stroke for other browsers (may not be widely supported) */
+      }
+
+    .blk-stroke-text {
+        -webkit-text-stroke: 1px rgb(6, 6, 6); /* Sets the stroke for Webkit browsers */
+         text-stroke: 1px red; /* Sets the stroke for other browsers (may not be widely supported) */
+      }
+
+     
+    
+
+    }
